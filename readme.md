@@ -1,41 +1,32 @@
-# Stencil Starter App
+# Stencil-Counter
 
-Stencil is a compiler for building fast web apps using Web Components.
+Sample project that shows how to create counter demo Web Component using [stenciljs](https://stenciljs.com/).
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+## Running
 
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
+Before you go through this example, you should have at least a basic understanding of Stencil concepts.
 
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
-
-## Getting Started
-
-To start a new project using Stencil, clone this repo to a new directory:
-
-```bash
-git clone git@github.com:ionic-team/stencil-starter.git my-app
-cd my-app
-git remote rm origin
-```
-
-and run:
+To run it, cd into `stencil-counter` and run:
 
 ```bash
 npm install
 npm start
 ```
 
-To view the build, start an HTTP server inside of the `/www` directory.
+## Requirements
 
-To watch for file changes during develop, run:
+* [Node.js](http://nodejs.org/)
+* [Stenciljs](https://stenciljs.com/)
 
-```bash
-npm run dev
-```
+## License
+   
+The MIT License (MIT) Copyright (c)
 
-To build the app for production, run:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-```bash
-npm run build
-```
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+   
+Original work Copyright (c) 2017 Adrián Brito
 

@@ -7,15 +7,15 @@ my-counter {
   }
 
   button {
-    background: pink;
+    background: #80CBC4;
     color: black;
     border: 0;
     border-radius: 6px;
-    box-shadow: 0 0 5px rgba(173, 61, 85, .5);
+    box-shadow: 0 0 5px rgba(18, 173, 152, 0.5);
   }
 
   button:active {
-    background: #ad3d55;
+    background: #004D40;
     color: white;
   }
 }

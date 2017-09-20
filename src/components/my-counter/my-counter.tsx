@@ -20,20 +20,12 @@ export class MyName {
 
     increment() {
         const newValue = this.value + this.step;
-        if (newValue > this.max) {
-        	this.value = this.max;
-        } else {
-          	this.value = newValue;
-        }
+        this.value = newValue > this.max ? this.max : newValue;
     }
 
 	decrement() {
 		const newValue = this.value - this.step;
-		if (newValue < this.min) {
-		  	this.value = this.min;
-		} else {
-		  	this.value = newValue;
-		}
+		this.value = newValue < this.min ? this.min : newValue;
 	}
 
 	render() {
