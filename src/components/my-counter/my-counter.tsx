@@ -1,4 +1,4 @@
-import { Component, Prop, State } from '@stencil/core';
+import { Component, Prop, State, Event, EventEmitter/*, Listen*/ } from '@stencil/core';
 
 
 @Component({
@@ -14,6 +14,15 @@ export class MyName {
 
 	@State() value: number;
 
+	@Event() message: EventEmitter;
+
+	/*
+	@Listen('message')
+      messageHandler(event: CustomEvent) {
+        console.log('Received the custom message event: ', event.detail);
+      }
+     */
+
 	componentWillLoad() {
         this.value = this.start;
     }
@@ -21,11 +30,13 @@ export class MyName {
     increment() {
         const newValue = this.value + this.step;
         this.value = newValue > this.max ? this.max : newValue;
+        this.message.emit(this.value);
     }
 
 	decrement() {
 		const newValue = this.value - this.step;
 		this.value = newValue < this.min ? this.min : newValue;
+		this.message.emit(this.value);
 	}
 
 	render() {

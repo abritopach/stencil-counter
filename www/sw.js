@@ -32,11 +32,19 @@ const fileManifest = [
   },
   {
     "url": "build/app.js",
-    "revision": "02e84c00e4d8bf111b7e962268a95f24"
+    "revision": "28fff7888bf2f5537d620cd42001fb09"
   },
   {
     "url": "build/app.registry.json",
-    "revision": "b68b52cb3f1fc7699582cc39c819c87b"
+    "revision": "ba175412eb6f88267f9d592bfb7c2d07"
+  },
+  {
+    "url": "build/app/16mmk3yb.css",
+    "revision": "fcccdfc2a1995c09e03fe79dfb979c7d"
+  },
+  {
+    "url": "build/app/3liu3y3j.js",
+    "revision": "4599dcfa9154fe1d079d829da55b7059"
   },
   {
     "url": "build/app/app.8x4gnafy.pf.js",
@@ -55,20 +63,12 @@ const fileManifest = [
     "revision": "2286d47e08db8815a3d1046e6f67975d"
   },
   {
-    "url": "build/app/vvn92gbg.js",
-    "revision": "3f113b70fde7d0a2191b77dec8489b40"
-  },
-  {
-    "url": "build/app/zaydwshx.css",
-    "revision": "4d7ca6d8dc1f14e2db1e77b4594cfa94"
-  },
-  {
     "url": "favicon.ico",
     "revision": "d2f619d796fbe8bed6200da2691aa5b6"
   },
   {
     "url": "index.html",
-    "revision": "3b40f9111318d7261c55fa0109996b53"
+    "revision": "26a666ecc409aa86a65f33bbacab0b4c"
   },
   {
     "url": "manifest.json",
