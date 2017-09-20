@@ -2,9 +2,16 @@
 
 Sample project that shows how to create counter demo Web Component using [stenciljs](https://stenciljs.com/).
 
+stencil-counter web component to be used in an [Ionic Demo app](https://github.com/abritopach/ionic-test-stencil-web-component)
+
 ## Running
 
 Before you go through this example, you should have at least a basic understanding of Stencil concepts.
+
+```bash
+git clone https://github.com/abritopach/stencil-counter
+cd stencil-counter
+```
 
 To run it, cd into `stencil-counter` and run:
 

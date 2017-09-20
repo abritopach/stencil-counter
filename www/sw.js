@@ -32,19 +32,15 @@ const fileManifest = [
   },
   {
     "url": "build/app.js",
-    "revision": "28fff7888bf2f5537d620cd42001fb09"
+    "revision": "d572816f767bc41a563278b3cc8737fe"
   },
   {
     "url": "build/app.registry.json",
-    "revision": "ba175412eb6f88267f9d592bfb7c2d07"
+    "revision": "c684dadf5a9e508c0beda3d52f5dd2ab"
   },
   {
     "url": "build/app/16mmk3yb.css",
     "revision": "fcccdfc2a1995c09e03fe79dfb979c7d"
-  },
-  {
-    "url": "build/app/3liu3y3j.js",
-    "revision": "4599dcfa9154fe1d079d829da55b7059"
   },
   {
     "url": "build/app/app.8x4gnafy.pf.js",
@@ -63,12 +59,16 @@ const fileManifest = [
     "revision": "2286d47e08db8815a3d1046e6f67975d"
   },
   {
+    "url": "build/app/iscq0tbc.js",
+    "revision": "d029e24dd2df89a77a2633901e70072f"
+  },
+  {
     "url": "favicon.ico",
     "revision": "d2f619d796fbe8bed6200da2691aa5b6"
   },
   {
     "url": "index.html",
-    "revision": "26a666ecc409aa86a65f33bbacab0b4c"
+    "revision": "3c66f9988bf7bd36db6064b7b5725d8a"
   },
   {
     "url": "manifest.json",
